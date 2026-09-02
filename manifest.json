@@ -1,0 +1,19 @@
+{
+  "short_name": "Doomsday Horizon",
+  "name": "Doomsday Horizon | Global Catastrophic Risk & Resilience Tracker",
+  "description": "Real-time AI ingestion, Doomsday Index prediction engine, 3D geospatial threat map, and resilient safe haven analytics.",
+  "icons": [
+    {
+      "src": "/og-image.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0B0F17",
+  "theme_color": "#0B0F17",
+  "display": "standalone",
+  "orientation": "any",
+  "categories": ["news", "utilities", "geospatial", "security"]
+}

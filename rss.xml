@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Doomsday Horizon | AI &amp; Catastrophic Threat News Feed</title>
+  <link>https://doomsday-horizon.com/</link>
+  <description>Real-time AI news ingestion, global catastrophic risk telemetry, biosecurity alerts, nuclear threat briefings, and existential risk news.</description>
+  <language>en-us</language>
+  <lastBuildDate>Sun, 30 Aug 2026 16:30:00 +0000</lastBuildDate>
+  <atom:link href="https://doomsday-horizon.com/rss.xml" rel="self" type="application/rss+xml" />
+
+  <item>
+    <title>Frontier AI Model Proliferation &amp; Autonomous Cyber System Vulnerabilities</title>
+    <link>https://doomsday-horizon.com/#ai-news</link>
+    <description>Surveillance telemetry tracking unaligned AI autonomous agents, recursive code synthesis, and frontier model safety alignment metrics.</description>
+    <pubDate>Sun, 30 Aug 2026 14:00:00 +0000</pubDate>
+    <guid>https://doomsday-horizon.com/#ai-news</guid>
+    <category>Artificial Intelligence</category>
+  </item>
+
+  <item>
+    <title>Strategic Nuclear Arsenal Movements &amp; Ballistic Launch Telemetry</title>
+    <link>https://doomsday-horizon.com/#nuclear-news</link>
+    <description>Global strategic nuclear deterrence updates, tactical missile dispersal alerts, and early-warning satellite telemetry summaries.</description>
+    <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
+    <guid>https://doomsday-horizon.com/#nuclear-news</guid>
+    <category>Nuclear Risk</category>
+  </item>
+
+  <item>
+    <title>Engineered Pathogen &amp; Gain-of-Function Research Surveillance Briefing</title>
+    <link>https://doomsday-horizon.com/#biosecurity-news</link>
+    <description>Biosecurity warning metrics monitoring synthetic biology advancements, BSL-4 facility protocols, and novel pathogen outbreak indicators.</description>
+    <pubDate>Sun, 30 Aug 2026 10:00:00 +0000</pubDate>
+    <guid>https://doomsday-horizon.com/#biosecurity-news</guid>
+    <category>Biosecurity</category>
+  </item>
+
+  <item>
+    <title>Methane Runaway &amp; AMOC Ocean Current Tipping Point Alerts</title>
+    <link>https://doomsday-horizon.com/#climate-news</link>
+    <description>Critical planetary boundary telemetry tracking Arctic permafrost thaw, ocean circulation anomalies, and extreme weather feedback loops.</description>
+    <pubDate>Sun, 30 Aug 2026 08:00:00 +0000</pubDate>
+    <guid>https://doomsday-horizon.com/#climate-news</guid>
+    <category>Climate Tipping Points</category>
+  </item>
+
+</channel>
+</rss>

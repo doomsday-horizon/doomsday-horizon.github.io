@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F17" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0B0F17" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <radialGradient id="redGlow" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#FF0055" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#0B0F17" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="cyanGlow" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#0B0F17" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F43F5E" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="1" opacity="0.4" />
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+  <rect width="1200" height="630" fill="url(#grid)" />
+  <rect width="1200" height="630" fill="url(#redGlow)" />
+  <rect width="1200" height="630" fill="url(#cyanGlow)" />
+
+  <!-- Frame Border -->
+  <rect x="30" y="30" width="1140" height="570" rx="24" fill="none" stroke="#334155" stroke-width="2" />
+  <rect x="40" y="40" width="1120" height="550" rx="16" fill="none" stroke="#FF0055" stroke-width="1" opacity="0.3" />
+
+  <!-- Header Badge -->
+  <rect x="80" y="80" width="260" height="36" rx="18" fill="#4C0519" stroke="#F43F5E" stroke-width="1.5" />
+  <circle cx="102" cy="98" r="6" fill="#F43F5E" />
+  <text x="118" y="103" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FECDD3" letter-spacing="2">DEFCON-1 ACTIVE</text>
+
+  <!-- Title -->
+  <text x="80" y="200" font-family="system-ui, sans-serif" font-size="64" font-weight="900" fill="url(#textGrad)" letter-spacing="2">DOOMSDAY HORIZON</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="250" font-family="system-ui, sans-serif" font-size="24" font-weight="500" fill="#94A3B8" letter-spacing="1">
+    Global Catastrophic Risk &amp; Resilience Telemetry Engine
+  </text>
+
+  <!-- Metric Card Box -->
+  <rect x="80" y="300" width="1040" height="180" rx="16" fill="#0F172A" stroke="#1E293B" stroke-width="2" />
+
+  <!-- Doomsday Index Gauge -->
+  <text x="120" y="350" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#64748B" letter-spacing="2">COMPOSITE DOOMSDAY INDEX ($DI$)</text>
+  <text x="120" y="430" font-family="system-ui, sans-serif" font-size="72" font-weight="900" fill="#F43F5E">68.4%</text>
+
+  <!-- Risk Pillars Icons Badges -->
+  <g transform="translate(600, 340)">
+    <!-- Pillar 1 -->
+    <rect x="0" y="0" width="150" height="36" rx="8" fill="#4C0519" stroke="#F43F5E" stroke-width="1" />
+    <text x="75" y="23" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#FDA4AF" text-anchor="middle">NUCLEAR</text>
+
+    <!-- Pillar 2 -->
+    <rect x="165" y="0" width="150" height="36" rx="8" fill="#082F49" stroke="#06B6D4" stroke-width="1" />
+    <text x="240" y="23" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#67E8F9" text-anchor="middle">AI &amp; AGI</text>
+
+    <!-- Pillar 3 -->
+    <rect x="0" y="48" width="150" height="36" rx="8" fill="#3B0764" stroke="#A855F7" stroke-width="1" />
+    <text x="75" y="71" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#E9D5FF" text-anchor="middle">BIOSECURITY</text>
+
+    <!-- Pillar 4 -->
+    <rect x="165" y="48" width="150" height="36" rx="8" fill="#451A03" stroke="#F59E0B" stroke-width="1" />
+    <text x="240" y="71" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#FDE68A" text-anchor="middle">CLIMATE</text>
+
+    <!-- Pillar 5 -->
+    <rect x="0" y="96" width="315" height="36" rx="8" fill="#064E3B" stroke="#10B981" stroke-width="1" />
+    <text x="157" y="119" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#A7F3D0" text-anchor="middle">CYBER GRID &amp; AUTONOMOUS TECH</text>
+  </g>
+
+  <!-- Footer Telemetry Link -->
+  <text x="80" y="540" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#38BDF8">
+    https://doomsday-horizon.com — 3D Geospatial Threat Radar &amp; Safe Haven Intelligence
+  </text>
+</svg>

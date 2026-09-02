@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  
+  <!-- AI News & Frontier Model Risk Briefings -->
+  <url>
+    <loc>https://doomsday-horizon.com/#ai-news</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Doomsday Horizon News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-30</news:publication_date>
+      <news:title>Frontier AI Model Proliferation &amp; Unaligned Autonomous System Threats</news:title>
+    </news:news>
+  </url>
+
+  <!-- Nuclear & Geopolitical Catastrophic News -->
+  <url>
+    <loc>https://doomsday-horizon.com/#nuclear-news</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Doomsday Horizon News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-30</news:publication_date>
+      <news:title>Strategic Ballistic Arsenal Escalation &amp; Nuclear Deterrence Monitoring</news:title>
+    </news:news>
+  </url>
+
+  <!-- Biosecurity & Pathogen Catastrophic News -->
+  <url>
+    <loc>https://doomsday-horizon.com/#biosecurity-news</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Doomsday Horizon News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-30</news:publication_date>
+      <news:title>Engineered Pathogen &amp; Gain-of-Function Research Surveillance Briefing</news:title>
+    </news:news>
+  </url>
+
+  <!-- Climate Tipping Points News -->
+  <url>
+    <loc>https://doomsday-horizon.com/#climate-news</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Doomsday Horizon News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-30</news:publication_date>
+      <news:title>Methane Runaway &amp; AMOC Ocean Current Tipping Point Telemetry</news:title>
+    </news:news>
+  </url>
+
+  <!-- Cyber Grid Failure News -->
+  <url>
+    <loc>https://doomsday-horizon.com/#cyber-news</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Doomsday Horizon News</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-30</news:publication_date>
+      <news:title>Critical Infrastructure &amp; Power Grid Cyber Attack Telemetry</news:title>
+    </news:news>
+  </url>
+
+</urlset>
