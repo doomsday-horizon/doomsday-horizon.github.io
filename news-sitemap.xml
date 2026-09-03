@@ -4,7 +4,7 @@
   
   <!-- AI News & Frontier Model Risk Briefings -->
   <url>
-    <loc>https://doomsday-horizon.com/#ai-news</loc>
+    <loc>https://doomsday-horizon.github.io/#ai-news</loc>
     <news:news>
       <news:publication>
         <news:name>Doomsday Horizon News</news:name>
@@ -17,7 +17,7 @@
 
   <!-- Nuclear & Geopolitical Catastrophic News -->
   <url>
-    <loc>https://doomsday-horizon.com/#nuclear-news</loc>
+    <loc>https://doomsday-horizon.github.io/#nuclear-news</loc>
     <news:news>
       <news:publication>
         <news:name>Doomsday Horizon News</news:name>
@@ -30,7 +30,7 @@
 
   <!-- Biosecurity & Pathogen Catastrophic News -->
   <url>
-    <loc>https://doomsday-horizon.com/#biosecurity-news</loc>
+    <loc>https://doomsday-horizon.github.io/#biosecurity-news</loc>
     <news:news>
       <news:publication>
         <news:name>Doomsday Horizon News</news:name>
@@ -43,7 +43,7 @@
 
   <!-- Climate Tipping Points News -->
   <url>
-    <loc>https://doomsday-horizon.com/#climate-news</loc>
+    <loc>https://doomsday-horizon.github.io/#climate-news</loc>
     <news:news>
       <news:publication>
         <news:name>Doomsday Horizon News</news:name>
@@ -56,7 +56,7 @@
 
   <!-- Cyber Grid Failure News -->
   <url>
-    <loc>https://doomsday-horizon.com/#cyber-news</loc>
+    <loc>https://doomsday-horizon.github.io/#cyber-news</loc>
     <news:news>
       <news:publication>
         <news:name>Doomsday Horizon News</news:name>

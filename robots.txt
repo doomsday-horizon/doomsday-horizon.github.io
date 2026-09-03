@@ -3,9 +3,9 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://doomsday-horizon.com
+Host: https://doomsday-horizon.github.io
 
 # Sitemaps & News Feeds
-Sitemap: https://doomsday-horizon.com/sitemap.xml
-Sitemap: https://doomsday-horizon.com/news-sitemap.xml
-Sitemap: https://doomsday-horizon.com/rss.xml
+Sitemap: https://doomsday-horizon.github.io/sitemap.xml
+Sitemap: https://doomsday-horizon.github.io/news-sitemap.xml
+Sitemap: https://doomsday-horizon.github.io/rss.xml

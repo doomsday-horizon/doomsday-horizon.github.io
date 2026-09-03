@@ -7,7 +7,7 @@
   
   <!-- Main Home Page Dashboard -->
   <url>
-    <loc>https://doomsday-horizon.com/</loc>
+    <loc>https://doomsday-horizon.github.io/</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
@@ -15,7 +15,7 @@
 
   <!-- 3D & 2D Tactical Geospatial Map View -->
   <url>
-    <loc>https://doomsday-horizon.com/map</loc>
+    <loc>https://doomsday-horizon.github.io/map</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
@@ -23,31 +23,31 @@
 
   <!-- Existential Risk Categories -->
   <url>
-    <loc>https://doomsday-horizon.com/#nuclear-risk</loc>
+    <loc>https://doomsday-horizon.github.io/#nuclear-risk</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://doomsday-horizon.com/#ai-existential-risk</loc>
+    <loc>https://doomsday-horizon.github.io/#ai-existential-risk</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://doomsday-horizon.com/#biosecurity-risk</loc>
+    <loc>https://doomsday-horizon.github.io/#biosecurity-risk</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://doomsday-horizon.com/#climate-tipping-points</loc>
+    <loc>https://doomsday-horizon.github.io/#climate-tipping-points</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://doomsday-horizon.com/#cyber-grid-failure</loc>
+    <loc>https://doomsday-horizon.github.io/#cyber-grid-failure</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
