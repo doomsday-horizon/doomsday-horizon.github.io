@@ -1,57 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" class="dark">
-  <head>
-    <link rel="stylesheet" href="cesium/Widgets/widgets.css">
-    <script src="cesium/Cesium.js"></script>
+<head>
+  <link rel="stylesheet" href="cesium/Widgets/widgets.css">
+  <script src="cesium/Cesium.js"></script>
 
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23FF0055' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'/><path d='m12 2a10 10 0 0 1 10 10'/><path d='M12 6v6l4 2'/></svg>" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0B0F17" />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23FF0055' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'/><path d='m12 2a10 10 0 0 1 10 10'/><path d='M12 6v6l4 2'/></svg>" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0B0F17" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
-    <!-- Primary Title & Description -->
-    <title>Doomsday Horizon | Real-Time AI &amp; Global Catastrophic Threat News</title>
-    <meta name="description" content="Live AI news ingestion, global catastrophic risk tracking, Doomsday Index prediction engine, 3D geospatial threat visualization, and breaking existential crisis news." />
-    <meta name="keywords" content="AI news, artificial intelligence news, catastrophic news, existential risk news, breaking threat news, global emergency news, doomsday counter, doomsday clock, biosecurity news, nuclear threat news, climate risk news, safe havens" />
+  <!-- Primary Title & Description -->
+  <title>Doomsday Horizon | Real-Time AI &amp; Global Catastrophic Threat News</title>
+  <meta name="description" content="Live AI news ingestion, global catastrophic risk tracking, Doomsday Index prediction engine, 3D geospatial threat visualization, and breaking existential crisis news." />
+  <meta name="keywords" content="AI news, artificial intelligence news, catastrophic news, existential risk news, breaking threat news, global emergency news, doomsday counter, doomsday clock, biosecurity news, nuclear threat news, climate risk news, safe havens" />
 
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://doomsday-horizon.github.io/" />
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://doomsday-horizon.github.io/" />
 
-    <!-- Web Application Manifest & RSS Feed -->
-    <link rel="manifest" href="./manifest.json" />
-    <link rel="alternate" type="application/rss+xml" title="Doomsday Horizon AI &amp; Catastrophic Threat News Feed" href="./rss.xml" />
+  <!-- Web Application Manifest & RSS Feed -->
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="alternate" type="application/rss+xml" title="Doomsday Horizon AI &amp; Catastrophic Threat News Feed" href="./rss.xml" />
 
-    <!-- Open Graph / Facebook / LinkedIn / Discord -->
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Doomsday Horizon News" />
-    <meta property="og:url" content="https://doomsday-horizon.github.io/" />
-    <meta property="og:title" content="Doomsday Horizon | Real-Time AI &amp; Global Catastrophic Threat News" />
-    <meta property="og:description" content="Live AI news ingestion, global catastrophic risk tracking, Doomsday Index prediction engine, 3D geospatial threat visualization, and breaking existential crisis news." />
-    <meta property="og:image" content="https://doomsday-horizon.github.io/og-image.svg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Doomsday Horizon Global Catastrophic Threat News Radar" />
-    <meta property="og:locale" content="en_US" />
+  <!-- Open Graph / Facebook / LinkedIn / Discord -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Doomsday Horizon News" />
+  <meta property="og:url" content="https://doomsday-horizon.github.io/" />
+  <meta property="og:title" content="Doomsday Horizon | Real-Time AI &amp; Global Catastrophic Threat News" />
+  <meta property="og:description" content="Live AI news ingestion, global catastrophic risk tracking, Doomsday Index prediction engine, 3D geospatial threat visualization, and breaking existential crisis news." />
+  <meta property="og:image" content="https://doomsday-horizon.github.io/og-image.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Doomsday Horizon Global Catastrophic Threat News Radar" />
+  <meta property="og:locale" content="en_US" />
 
-    <!-- Twitter Card Metadata -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@DoomsdayHorizon" />
-    <meta name="twitter:title" content="Doomsday Horizon | Real-Time AI &amp; Global Catastrophic Threat News" />
-    <meta name="twitter:description" content="Live AI news ingestion, global catastrophic risk tracking, Doomsday Index prediction engine, 3D geospatial threat visualization, and breaking existential crisis news." />
-    <meta name="twitter:image" content="https://doomsday-horizon.github.io/og-image.svg" />
-    <meta name="twitter:image:alt" content="Doomsday Horizon News Portal Preview" />
+  <!-- Twitter Card Metadata -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@DoomsdayHorizon" />
+  <meta name="twitter:title" content="Doomsday Horizon | Real-Time AI &amp; Global Catastrophic Threat News" />
+  <meta name="twitter:description" content="Live AI news ingestion, global catastrophic risk tracking, Doomsday Index prediction engine, 3D geospatial threat visualization, and breaking existential crisis news." />
+  <meta name="twitter:image" content="https://doomsday-horizon.github.io/og-image.svg" />
+  <meta name="twitter:image:alt" content="Doomsday Horizon News Portal Preview" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Orbitron:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-    
-    <!-- Leaflet CSS for Map rendering -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <!-- Google Fonts: Geist Pixel for Major Headings & Roboto Mono for Secondary Items -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Orbitron:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 
-    <!-- Schema.org JSON-LD Structured Data for NewsMediaOrganization, WebApplication & Dataset -->
-    <script type="application/ld+json">
+  <!-- Leaflet CSS for Map rendering -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+  <!-- Schema.org JSON-LD Structured Data for NewsMediaOrganization, WebApplication & Dataset -->
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
@@ -93,30 +94,30 @@
       ]
     }
     </script>
-    <script type="module" crossorigin src="./assets/index-SyDc-3Il.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-DaDuzuDf.css">
-  </head>
-  <body class="bg-[#0B0F17] text-slate-100 font-sans antialiased overflow-x-hidden selection:bg-rose-500 selection:text-white">
-    <div id="root">
-      <!-- Search Engine Noscript Fallback Text & HTML Content for Non-JS Crawlers -->
-      <noscript>
-        <div style="padding: 40px; max-width: 800px; margin: 0 auto; color: #F8FAFC; font-family: sans-serif;">
-          <h1>Doomsday Horizon | Global Catastrophic Risk &amp; Resilience Tracker</h1>
-          <p><strong>DEFCON-1 ACTIVE Telemetry Engine</strong></p>
-          <p>Doomsday Horizon is an advanced global catastrophic risk telemetry platform that ingests real-time threat intelligence across eight existential pillars:</p>
-          <ul>
-            <li><strong>Nuclear Threat:</strong> Strategic arsenal movements, non-proliferation violations, and ballistic launch telemetry.</li>
-            <li><strong>Artificial Intelligence &amp; Autonomous Tech:</strong> Unaligned frontier model proliferation, autonomous weapons, and cyber infrastructure vulnerabilities.</li>
-            <li><strong>Biosecurity:</strong> Engineered pathogen outbreaks, gain-of-function research surveillance, and pandemic response preparedness.</li>
-            <li><strong>Climate &amp; Supervolcano Tipping Points:</strong> Methane runaway loops, AMOC collapse indicators, and supervolcanic thermal anomalies.</li>
-            <li><strong>Cosmic &amp; Solar Anomalies:</strong> Geomagnetic storm flares, near-Earth asteroid trajectories, and orbital grid disruptions.</li>
-            <li><strong>Geopolitical Conflict:</strong> Multi-theater warfare escalation and strategic deterrence metrics.</li>
-          </ul>
-          <h2>Composite Doomsday Index ($DI$) &amp; Safe Haven Intelligence</h2>
-          <p>Our mathematical engine predicts projected time horizons until critical global tipping points and calculates geopolitical safe haven resilience scores.</p>
-          <p>Please enable JavaScript to launch the 3D Geospatial Threat Radar and interactive telemetry drawer.</p>
-        </div>
-      </noscript>
-    </div>
-  </body>
+  <script type="module" crossorigin src="./assets/index-CVMloTbt.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CCIAajua.css">
+</head>
+<body class="bg-[#0B0F17] text-slate-100 font-sans antialiased overflow-x-hidden selection:bg-rose-500 selection:text-white">
+  <div id="root">
+    <!-- Search Engine Noscript Fallback Text & HTML Content for Non-JS Crawlers -->
+    <noscript>
+      <div style="padding: 40px; max-width: 800px; margin: 0 auto; color: #F8FAFC; font-family: sans-serif;">
+        <h1>Doomsday Horizon | Global Catastrophic Risk &amp; Resilience Tracker</h1>
+        <p><strong>DEFCON-1 ACTIVE Telemetry Engine</strong></p>
+        <p>Doomsday Horizon is an advanced global catastrophic risk telemetry platform that ingests real-time threat intelligence across eight existential pillars:</p>
+        <ul>
+          <li><strong>Nuclear Threat:</strong> Strategic arsenal movements, non-proliferation violations, and ballistic launch telemetry.</li>
+          <li><strong>Artificial Intelligence &amp; Autonomous Tech:</strong> Unaligned frontier model proliferation, autonomous weapons, and cyber infrastructure vulnerabilities.</li>
+          <li><strong>Biosecurity:</strong> Engineered pathogen outbreaks, gain-of-function research surveillance, and pandemic response preparedness.</li>
+          <li><strong>Climate &amp; Supervolcano Tipping Points:</strong> Methane runaway loops, AMOC collapse indicators, and supervolcanic thermal anomalies.</li>
+          <li><strong>Cosmic &amp; Solar Anomalies:</strong> Geomagnetic storm flares, near-Earth asteroid trajectories, and orbital grid disruptions.</li>
+          <li><strong>Geopolitical Conflict:</strong> Multi-theater warfare escalation and strategic deterrence metrics.</li>
+        </ul>
+        <h2>Composite Doomsday Index ($DI$) &amp; Safe Haven Intelligence</h2>
+        <p>Our mathematical engine predicts projected time horizons until critical global tipping points and calculates geopolitical safe haven resilience scores.</p>
+        <p>Please enable JavaScript to launch the 3D Geospatial Threat Radar and interactive telemetry drawer.</p>
+      </div>
+    </noscript>
+  </div>
+</body>
 </html>
